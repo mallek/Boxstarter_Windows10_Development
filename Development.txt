@@ -39,10 +39,12 @@ cinst -y gitkraken
 cinst -y winrar
 cinst -y filezilla
 cinst -y azure-cli
-cinst -y azurepowershell 
  
 # Install applications not available in Chocolatey
 
+#Install Powershell Profile
+cd ~\Documents
+git clone https://github.com/mallek/WindowsPowerShell.git
  
 # Visual Studio Code Extensions
 code --install-extension ms-vscode.csharp
