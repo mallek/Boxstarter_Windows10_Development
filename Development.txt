@@ -43,6 +43,7 @@ cinst -y slack
 cinst -y resharper-ultimate-all
 cinst -y gitkraken
 cinst -y winrar
+cinst -y filezilla 
  
 # Install applications not available in Chocolatey
 
