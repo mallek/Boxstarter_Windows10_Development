@@ -1,0 +1,62 @@
+Update-ExecutionPolicy Unrestricted
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+cinst Microsoft-Hyper-V-All -source windowsFeatures
+cinst Microsoft-Windows-Subsystem-Linux -source windowsFeatures
+cinst TelnetClient -source windowsFeatures
+ 
+# Enable Windows Controlled Folder Access
+Set-MpPreference -EnableControlledFolderAccess Enabled
+ 
+cinst IIS-WebServerRole -source windowsfeatures
+cinst IIS-HttpCompressionDynamic -source windowsfeatures
+ 
+cinst -y 7zip.install --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y autohotkey.portable  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y beyondcompare  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y curl  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y fiddler4  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y git.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y nodejs.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+#cinst -y notepadplusplus.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y vscode --params '"/NoDesktopIcon /NoQuicklaunchIcon"'  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y nuget.commandline  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y sysinternals  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y vlc  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y cmdermini  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y Wget  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y baretail  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y foxitreader  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y putty.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y fscapture  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y linqpad  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y googlechrome  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+#cinst -y xyplorer  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y docker-for-windows  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y postman  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y nimbletext  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y dotpeek  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y ditto  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+#cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+ 
+# Install applications not available in Chocolatey
+#(New-Object System.Net.WebClient).DownloadFile("https://download.teamviewer.com/download/TeamViewerPortable.zip","$Env:TEMP\TeamViewerPortable.zip");(Expand-Archive "$Env:TEMP\TeamViewerPortable.zip" -DestinationPath "$Env:USERPROFILE\AppData\Local\TeamViewerPortable\" -Force);
+#(New-Object System.Net.WebClient).DownloadFile("https://typora.io/windows/typora-setup-x64.exe","$Env:TEMP\typora-setup-x64.exe");cmd /c '%TEMP%\typora-setup-x64.exe /SILENT'
+# Include this if you want Xamarin installed  --add Microsoft.VisualStudio.Workload.NetCrossPlat;includeOptional
+#(New-Object System.Net.WebClient).DownloadFile("https://aka.ms/vs/15/release/vs_enterprise.exe","$Env:TEMP\vs_enterprise.exe");cmd /c  'start /wait %TEMP%\vs_enterprise.exe --wait --passive --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.Data;includeOptional --add Microsoft.VisualStudio.Workload.NetCoreTools --add Microsoft.VisualStudio.Workload.NetWeb;includeOptional --add Microsoft.VisualStudio.Workload.Node --includeRecommended'
+ 
+# Visual Studio Code Extensions
+code --install-extension ms-vscode.csharp
+code --install-extension formulahendry.code-runner
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension abusaidm.html-snippets
+code --install-extension eg2.vscode-npm-script
+code --install-extension ms-vscode.powershell
+code --install-extension Shan.code-settings-sync
+code --install-extension esbenp.prettier-vscode
+code --install-extension eamodio.gitlens
+code --install-extension robertohuertasm.vscode-icons
+ 
+Install-WindowsUpdate -AcceptEula
