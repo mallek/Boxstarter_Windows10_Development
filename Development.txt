@@ -24,13 +24,10 @@ cinst -y sysinternals
 cinst -y vlc
 cinst -y cmdermini
 cinst -y Wget
-#cinst -y baretail
 cinst -y foxitreader
 cinst -y putty.install
-#cinst -y fscapture
 cinst -y linqpad
 cinst -y googlechrome
-#cinst -y xyplorer
 cinst -y docker-for-windows
 cinst -y postman
 cinst -y nimbletext
@@ -38,12 +35,13 @@ cinst -y ditto
 cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise
 cinst -y dotnetcore
-#cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y slack
 cinst -y resharper-ultimate-all
 cinst -y gitkraken
 cinst -y winrar
-cinst -y filezilla 
+cinst -y filezilla
+cinst -y azure-cli
+cinst -y azurepowershell 
  
 # Install applications not available in Chocolatey
 
