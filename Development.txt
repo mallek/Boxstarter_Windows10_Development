@@ -116,7 +116,7 @@ Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 Get-AppxPackage *MarchofEmpires* | Remove-AppxPackage
 
 # McAfee Security
-Get-AppxPackage *McAfee* | Remove-AppxPackag
+Get-AppxPackage *McAfee* | Remove-AppxPackage
 
 # Messaging
 Get-AppxPackage Microsoft.Messaging | Remove-AppxPackage
