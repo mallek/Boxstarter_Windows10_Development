@@ -8,8 +8,8 @@ cinst -y vlc  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
 cinst -y vscode --params '/NoDesktopIcon /NoQuicklaunchIcon'
 cinst -y cmdermini  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
 cinst -y foxitreader  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
-cinst -y googlechrome  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
-cinst -y xyplorer  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
+cinst -y googlechrome
+#cinst -y xyplorer  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
 cinst -y ditto  --cacheLocation '$env:userprofile\AppData\Local\Temp\chocolatey'
  
 Install-WindowsUpdate -AcceptEula
