@@ -60,6 +60,3 @@ code --install-extension eamodio.gitlens
 code --install-extension robertohuertasm.vscode-icons
  
 Install-WindowsUpdate -AcceptEula
-
-
-https://raw.githubusercontent.com/mallek/Boxstarter_Windows10_Development/master/Development.txt
