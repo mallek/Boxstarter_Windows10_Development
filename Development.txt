@@ -10,38 +10,39 @@ Set-MpPreference -EnableControlledFolderAccess Enabled
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
  
-cinst -y 7zip.install --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y autohotkey.portable  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y beyondcompare  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y curl  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y fiddler4  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y git.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y nodejs.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y notepadplusplus.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y vscode --params '"/NoDesktopIcon /NoQuicklaunchIcon"'  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y nuget.commandline  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y sysinternals  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y vlc  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y cmdermini  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y Wget  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y baretail  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y foxitreader  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+#cinst -y 7zip.install
+cinst -y autohotkey.portable
+cinst -y beyondcompare
+cinst -y curl
+cinst -y fiddler4
+cinst -y git.install
+cinst -y nodejs.install
+cinst -y notepadplusplus.install
+cinst -y vscode --params '"/NoDesktopIcon /NoQuicklaunchIcon"'
+cinst -y nuget.commandline
+cinst -y sysinternals
+cinst -y vlc
+cinst -y cmdermini
+cinst -y Wget
+#cinst -y baretail
+cinst -y foxitreader
 cinst -y putty.install
 #cinst -y fscapture
-cinst -y linqpad  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y googlechrome  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-#cinst -y xyplorer  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y docker-for-windows  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y postman  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y nimbletext  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y dotpeek  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y ditto  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y linqpad
+cinst -y googlechrome
+#cinst -y xyplorer
+cinst -y docker-for-windows
+cinst -y postman
+cinst -y nimbletext
+cinst -y ditto
 cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise
 cinst -y dotnetcore
 #cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y slack --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y 
+cinst -y slack
+cinst -y resharper-ultimate-all
+cinst -y gitkraken
+cinst -y winrar
  
 # Install applications not available in Chocolatey
 
