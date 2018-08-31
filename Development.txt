@@ -40,6 +40,7 @@ cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise
 cinst -y dotnetcore --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 #cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y slack --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
  
 # Install applications not available in Chocolatey
 
