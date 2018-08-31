@@ -10,5 +10,5 @@ Run the boxstarter web powershell installer script
 Install this repository via boxstarter
 
 ```
-Install-BoxstarterPackage -PackgeName https://gist.githubusercontent.com/Boxstarter-Base.txt -DisableReboots
+Install-BoxstarterPackage -PackgeName https://raw.githubusercontent.com/mallek/Boxstarter_Windows10_Development/master/Boxstarter-Base.txt -DisableReboots
 ```
