@@ -41,7 +41,8 @@ cinst -y postman
 cinst -y nimbletext
 cinst -y ditto
 cinst -y sql-server-management-studio
-cinst -y vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
+#cinst -y vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
+cinst -y vscode
 cinst -y visualstudio2017enterprise
 cinst -y resharper-ultimate-all
 cinst -y poshgit
