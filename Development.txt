@@ -26,8 +26,8 @@ cinst -y cmdermini  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocola
 cinst -y Wget  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y baretail  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y foxitreader  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y putty.install  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y fscapture  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y putty.install
+cinst -y fscapture
 cinst -y linqpad  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y googlechrome  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 #cinst -y xyplorer  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
@@ -37,7 +37,7 @@ cinst -y nimbletext  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocol
 cinst -y dotpeek  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y ditto  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y sql-server-management-studio
-cinst -y visualstudio2017enterprise --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y visualstudio2017enterprise
 cinst -y dotnetcore --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 #cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
  
