@@ -43,6 +43,7 @@ cinst -y azure-cli
 # Install applications not available in Chocolatey
 
 #Install Powershell Profile
+cinst -y fzf
 cd ~\Documents
 git clone https://github.com/mallek/WindowsPowerShell.git
  
