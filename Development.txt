@@ -36,7 +36,7 @@ cinst -y postman  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolate
 cinst -y nimbletext  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y dotpeek  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y ditto  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
-cinst -y sql-server-management-studio --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
+cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 cinst -y dotnetcore --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
 #cinst -Y listary  --cacheLocation "$env:userprofile\AppData\Local\Temp\chocolatey"
