@@ -10,15 +10,13 @@ Set-MpPreference -EnableControlledFolderAccess Enabled
 cinst IIS-WebServerRole -source windowsfeatures
 cinst IIS-HttpCompressionDynamic -source windowsfeatures
  
-#cinst -y 7zip.install
 cinst -y autohotkey.portable
-cinst -y beyondcompare
 cinst -y curl
-cinst -y fiddler4
+cinst -y fiddler
 cinst -y git.install
 cinst -y nodejs.install
 cinst -y notepadplusplus.install
-cinst -y vscode --params '"/NoDesktopIcon /NoQuicklaunchIcon"'
+cinst -y vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
 cinst -y nuget.commandline
 cinst -y sysinternals
 cinst -y vlc
