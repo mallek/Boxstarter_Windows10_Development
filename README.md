@@ -12,3 +12,8 @@ Install this repository via boxstarter
 ```
 Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/mallek/Boxstarter_Windows10_Development/master/Boxstarter-Base.txt -DisableReboots
 ```
+
+For a development install run this, this does a lot more tweaks to the OS and installs some everyday developer tools
+```
+Install-BoxstarterPackage -PackageName https://raw.githubusercontent.com/mallek/Boxstarter_Windows10_Development/master/Development.txt
+```
