@@ -19,6 +19,19 @@ cinst IIS-HttpCompressionDynamic -source windowsfeatures
 #--- Fonts ---
 cinst -y inconsolata
 
+#--- Apps ---
+cinst -y filezilla
+cinst -y foxitreader
+cinst -y gitkraken
+cinst -y googlechrome
+cinst -y notepadplusplus.install
+cinst -y slack
+cinst -y sql-server-management-studio
+cinst -y visualstudio2017enterprise
+cinst -y vscode
+cinst -y vlc
+cinst -y winrar
+
 #--- Dev Tools ---
 cinst -y autohotkey.portable
 cinst -y azure-cli
@@ -33,26 +46,11 @@ cinst -y cmdermini
 cinst -y Wget
 cinst -y putty.install
 cinst -y linqpad
-cinst -y docker-for-windows
 cinst -y postman
 cinst -y nimbletext
 cinst -y ditto
-cinst -y sql-server-management-studio
-#cinst -y vscode --params "/NoDesktopIcon /NoQuicklaunchIcon"
-cinst -y vscode
-cinst -y visualstudio2017enterprise
 cinst -y resharper-ultimate-all
 cinst -y poshgit
-
-#--- Apps ---
-cinst -y filezilla
-cinst -y gitkraken
-cinst -y googlechrome
-cinst -y slack
-cinst -y winrar
-cinst -y foxitreader
-cinst -y notepadplusplus.install
-cinst -y vlc
  
 # Install applications not available in Chocolatey
 
@@ -87,9 +85,6 @@ Get-AppxPackage king.com.CandyCrush* | Remove-AppxPackage
 
 # Comms Phone
 Get-AppxPackage Microsoft.CommsPhone | Remove-AppxPackage
-
-# Dell
-Get-AppxPackage *Dell* | Remove-AppxPackage
 
 # Dropbox
 Get-AppxPackage *Dropbox* | Remove-AppxPackage
