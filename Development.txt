@@ -27,7 +27,7 @@ cinst -y gitkraken
 cinst -y googlechrome
 cinst -y notepadplusplus.install
 cinst -y slack
-cinst -y sql-server-management-studio
+#cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise
 cinst -y vscode
 cinst -y vlc
