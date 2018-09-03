@@ -20,6 +20,7 @@ cinst IIS-HttpCompressionDynamic -source windowsfeatures
 cinst -y inconsolata
 
 #--- Apps ---
+cinst -y datagrip
 cinst -y filezilla
 cinst -y foxitreader
 cinst -y gitkraken
