@@ -1,6 +1,14 @@
 # Boxstarter_Windows10_Development
 A simple script to set up a windows 10 development environment in a consistant way
 
+Make sure windows update is done running and installing all updates
+requires version > Feature update to Windows 10, version 1803
+
+you may need to set your execution policy to run all the installs
+```
+Set-ExecutionPolicy unrestricted
+```
+
 Run the boxstarter web powershell installer script
 
 ```
