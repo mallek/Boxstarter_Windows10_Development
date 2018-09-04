@@ -39,7 +39,7 @@ cinst -y azure-cli
 cinst -y curl
 cinst -y dotnetcore
 cinst -y fiddler
-cinst -y git.install
+#cinst -y git.install
 cinst -y nodejs.install
 cinst -y nuget.commandline
 cinst -y sysinternals
@@ -58,8 +58,8 @@ cinst -y poshgit
 #Install Powershell Profile
 cinst -y fzf
 #Set-MpPreference -EnableControlledFolderAccess Disabled
-cd ~\Documents
-git clone https://github.com/mallek/WindowsPowerShell.git
+#cd ~\Documents
+#git clone https://github.com/mallek/WindowsPowerShell.git
 #Set-MpPreference -EnableControlledFolderAccess Enabled
 
 #--- Uninstall unecessary applications that come with Windows out of the box ---
