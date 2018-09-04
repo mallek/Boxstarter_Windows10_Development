@@ -58,8 +58,8 @@ cinst -y poshgit
 #Install Powershell Profile
 cinst -y fzf
 #Set-MpPreference -EnableControlledFolderAccess Disabled
-#cd ~\Documents
-#git clone https://github.com/mallek/WindowsPowerShell.git
+cd ~\Documents
+git clone https://github.com/mallek/WindowsPowerShell.git
 #Set-MpPreference -EnableControlledFolderAccess Enabled
 
 #--- Uninstall unecessary applications that come with Windows out of the box ---
