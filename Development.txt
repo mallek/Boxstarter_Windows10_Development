@@ -39,8 +39,10 @@ cinst -y azure-cli
 cinst -y curl
 cinst -y dotnetcore
 cinst -y fiddler
-#cinst -y git.install
-cinst -y nodejs.install
+cinst -y git.install
+#using LTS of node because gulp is currently broken on node 10
+cinst -y nodejs-lts
+#cinst -y nodejs.install
 cinst -y nuget.commandline
 cinst -y sysinternals
 cinst -y cmdermini
