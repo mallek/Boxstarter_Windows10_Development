@@ -22,12 +22,11 @@ cinst -y inconsolata
 #--- Apps ---
 cinst -y datagrip
 cinst -y filezilla
-cinst -y foxitreader
 cinst -y gitkraken
 cinst -y googlechrome
 cinst -y notepadplusplus.install
 cinst -y slack
-cinst -y sql-server-management-studio
+#cinst -y sql-server-management-studio
 cinst -y visualstudio2017enterprise
 cinst -y vscode
 cinst -y vlc
@@ -40,7 +39,7 @@ cinst -y curl
 cinst -y dotnetcore
 cinst -y fiddler
 cinst -y git.install
-#cinst -y nodejs.install
+cinst -y nodejs-lts
 cinst -y nuget.commandline
 cinst -y sysinternals
 cinst -y cmdermini
@@ -48,7 +47,6 @@ cinst -y Wget
 #cinst -y putty.install
 cinst -y linqpad
 cinst -y postman
-cinst -y nimbletext
 cinst -y ditto
 #cinst -y resharper-ultimate-all
 cinst -y poshgit
