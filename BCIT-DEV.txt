@@ -7,7 +7,7 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -Lock
 Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 # Enable Windows Controlled Folder Access
-Set-MpPreference -EnableControlledFolderAccess Enabled
+# Set-MpPreference -EnableControlledFolderAccess Enabled
 
 #--- Windows Subsystems/Features ---
 cinst Microsoft-Hyper-V-All -source windowsFeatures
