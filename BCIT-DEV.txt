@@ -30,7 +30,7 @@ cinst -y slack
 cinst -y visualstudio2017enterprise
 cinst -y vscode
 #cinst -y vlc
-#cinst -y winrar
+cinst -y winrar
 
 #--- Dev Tools ---
 cinst -y autohotkey.portable
