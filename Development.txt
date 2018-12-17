@@ -7,7 +7,7 @@ Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -Lock
 Set-TaskbarOptions -Size Small -Dock Bottom -Combine Full -AlwaysShowIconsOn
 
 # Enable Windows Controlled Folder Access
-Set-MpPreference -EnableControlledFolderAccess Enabled
+#Set-MpPreference -EnableControlledFolderAccess Enabled
 
 #--- Windows Subsystems/Features ---
 cinst Microsoft-Hyper-V-All -source windowsFeatures
@@ -25,10 +25,10 @@ cinst -y filezilla
 cinst -y foxitreader
 cinst -y gitkraken
 cinst -y googlechrome
-cinst -y notepadplusplus.install
+#cinst -y notepadplusplus.install
 cinst -y slack
 #cinst -y sql-server-management-studio
-cinst -y visualstudio2017enterprise
+#cinst -y visualstudio2017enterprise
 cinst -y vscode
 cinst -y vlc
 cinst -y winrar
@@ -47,10 +47,10 @@ cinst -y nuget.commandline
 cinst -y sysinternals
 cinst -y cmdermini
 cinst -y Wget
-cinst -y putty.install
+#cinst -y putty.install
 cinst -y linqpad
 cinst -y postman
-cinst -y nimbletext
+#cinst -y nimbletext
 cinst -y ditto
 cinst -y resharper-ultimate-all
 cinst -y poshgit
@@ -60,8 +60,8 @@ cinst -y poshgit
 #Install Powershell Profile
 cinst -y fzf
 #Set-MpPreference -EnableControlledFolderAccess Disabled
-#cd ~\Documents
-#git clone https://github.com/mallek/WindowsPowerShell.git
+cd ~\Documents
+git clone https://github.com/mallek/WindowsPowerShell.git
 #Set-MpPreference -EnableControlledFolderAccess Enabled
 
 #--- Uninstall unecessary applications that come with Windows out of the box ---
